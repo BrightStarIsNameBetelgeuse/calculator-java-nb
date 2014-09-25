@@ -13,7 +13,11 @@ public class Calculate {
 
     private static Calculate instance;
 
-    public Calculate getInstance(){
-        if(inst)
+    public static Calculate getInstance(){
+        if(instance == null){
+            instance = new Calculate();
+            return instance;
+        }
+        return instance;
     }
 }
