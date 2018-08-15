@@ -42,3 +42,4 @@ public class CalculatorApp extends SingleFrameApplication {
         launch(CalculatorApp.class, args);
     }
 }
+
